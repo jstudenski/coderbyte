@@ -6,6 +6,8 @@
  // 60.If str is 1:00pm-11:00am the output should be 1320. 
 
 
+// see problem 9
+
 function CountingMinutesI(str) {
 
 //convert hours to minutes?
@@ -14,3 +16,4 @@ function CountingMinutesI(str) {
 //subtract two times in minutes
 
 }
+

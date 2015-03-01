@@ -5,3 +5,13 @@
   // and for the string to be true each letter must be surrounded by a + symbol
   // So the string to the left would be false. The string will not be empty and
   // will have at least one letter. 
+
+function SimpleSymbols(str) {
+
+
+	// each letter must be surrounded by +l+
+
+	letter[]
+
+	if letter[+1] && letter[-1] == "+"
+}

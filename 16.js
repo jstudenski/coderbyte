@@ -14,6 +14,7 @@ function Arithmatic(arr) {
 
 var diff = arr[1] - arr[0] 
 
+
 }
 
 
