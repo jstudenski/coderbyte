@@ -6,7 +6,8 @@
 // ["5","4","6","E","1","7","E","E","3","2"] then your program should return 4,1,5. 
 
 
-//step through array, create variable currentsmallest and update with smallest number until an E is reached. 
+//step through array, create variable currentsmallest and update with smallest number until an E is reached
+//smallest number it taken out
 //When E is reached add current smallest to newArray
 //Clear current smallest
 

@@ -3,3 +3,21 @@
 // the number of times you must multiply the digits in num until you reach a single digit. For example: if 
 // num is 39 then your program should return 3 because 3 * 9 = 27 then 2 * 7 = 14 and finally 1 * 4 = 4 and 
 // you stop at 4.
+
+
+
+
+
+function MultiplicativePersistence(num) {
+
+var currentnum = num
+
+//while currentnum.length > 1 
+//do...
+	//split string ('')
+	//save variables
+	//multiply them togther
+	//answer = current num .. repeat
+//else return currentnum
+
+}
