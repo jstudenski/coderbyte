@@ -8,5 +8,9 @@
 
 function CountingMinutesI(str) {
 
+//convert hours to minutes?
+//pm add 12 to hour
+
+//subtract two times in minutes
 
 }

@@ -8,3 +8,29 @@
  // common ratio. Arithmetic example: [2, 4, 6, 8] and Geometric example:
  // [2, 6, 18, 54]. Negative numbers may be entered as parameters, 0 will
  // not be entered, and no array will contain all the same elements.
+
+
+function Arithmatic(arr) {
+
+var diff = arr[1] - arr[0] 
+
+}
+
+
+function Geometric(arr) {
+
+var multiple = arr[1] / arr[0]
+
+
+}
+function ArithGeo(arr) {
+
+	if Arithmatic(arr) {
+	return "Arithmatic" // distance between numbers is consistent 
+	} else if Geometric(arr) {
+	return "Geometric" // common ration 2, 6, 18, 54
+	} else {
+	return -1 // neither
+	}
+	
+}

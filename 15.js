@@ -5,3 +5,45 @@
  //  also "racecar" backwards. Punctuation and numbers will not be part of the
  //  string. 
  // 
+
+
+ function Palindrome(str) {
+ 	//.reverse in javascript?
+
+
+var sizedivtwo = str.length / 2
+	// round down..?
+
+
+0				8
+	1		7
+
+var bottom = 0
+var top = str.length - 1 //8
+
+if top = bottom break -> is palindrome
+	or
+if bottom > top break -> is palindrome
+
+else
+
+	if str[bottom] == str[top] {
+
+		bottom += 1
+		top -= 1
+
+	} else {
+
+		console.log("is not a palindrome")
+	}
+
+
+
+
+abcdedcba 9
+
+abccba 6
+
+
+// if odd/ if even?
+ }
