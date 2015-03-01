@@ -10,8 +10,11 @@
 //smallest number it taken out
 //When E is reached add current smallest to newArray
 //Clear current smallest
-
 //4 and 1 get removed, therefore 5 is the smallest (4,1,5)
+
+
+//Sort array function, pop smallest when E is reached
+
 
 function OffLineMinimum(strArr){
 

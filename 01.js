@@ -31,4 +31,3 @@ function FirstReverse(str) {
 }
 
 debug(FirstReverse(10));
-debug(str);
