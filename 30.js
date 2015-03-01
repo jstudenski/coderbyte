@@ -5,3 +5,14 @@
 // program should return that new set with integers separated by commas. For example: if strArr is 
 // ["5","4","6","E","1","7","E","E","3","2"] then your program should return 4,1,5. 
 
+
+//step through array, create variable currentsmallest and update with smallest number until an E is reached. 
+//When E is reached add current smallest to newArray
+//Clear current smallest
+
+//4 and 1 get removed, therefore 5 is the smallest (4,1,5)
+
+function OffLineMinimum(strArr){
+
+
+}
