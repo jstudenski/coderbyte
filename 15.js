@@ -7,43 +7,31 @@
  // 
 
 
- function Palindrome(str) {
- 	//.reverse in javascript?
+function Palindrome(str) {
 
+	var myArray = str.split('');
 
-var sizedivtwo = str.length / 2
-	// round down..?
+	var revArray = myArray.reverse(); // how do I use .reverse only once?
 
+	var myArray = str.split(''); 
+	
+	for (i in myArray) {
 
-0				8
-	1		7
+		if (myArray[i] == revArray[i]) {
 
-var bottom = 0
-var top = str.length - 1 //8
+		} else {
 
-if top = bottom break -> is palindrome
-	or
-if bottom > top break -> is palindrome
-
-else
-
-	if str[bottom] == str[top] {
-
-		bottom += 1
-		top -= 1
-
-	} else {
-
-		console.log("is not a palindrome")
+			return false;
+		}
 	}
 
+	return true;
+};
 
 
+console.log(Palindrome("ho4oh"))
 
-abcdedcba 9
-
-abccba 6
-
-
-// if odd/ if even?
- }
+// Fix test cases:
+//  When the input was "dont nod" your output was incorrect
+//  When the input was "do geese see god" your output was incorrect
+//  When the input was "never odd or even" your output was incorrect
