@@ -13,7 +13,6 @@ var total = 0;
 
 }
 
-
 console.log(SimpleAdding(3))
 
 
