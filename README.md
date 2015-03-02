@@ -2,8 +2,7 @@ Fix problem 3 test cases,
 
 Fix problem 7, l + 1 wont work..
 
-Look up ways to step through an array
-
+Fir problem 16, [i + 1] issue;
 
 
 The difference between writing a function and invoking a function

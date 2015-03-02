@@ -12,26 +12,43 @@
 
 function Arithmatic(arr) {
 
-var diff = arr[1] - arr[0] 
+	var diff = arr[1] - arr[0]; // difference between the first two numbers
 
+	for (i in arr) {
+
+		if (i <= arr.length-1) {
+
+			if (arr[i] == arr[i-1]) { // -1
+
+			console.log(arr[i]);
+
+			}
+
+		} 
+
+	}
 
 }
-
 
 function Geometric(arr) {
 
 var multiple = arr[1] / arr[0]
 
-
 }
+
+
 function ArithGeo(arr) {
 
-	if Arithmatic(arr) {
-	return "Arithmatic" // distance between numbers is consistent 
-	} else if Geometric(arr) {
-	return "Geometric" // common ration 2, 6, 18, 54
-	} else {
-	return -1 // neither
-	}
+
+	// if Arithmatic(arr) {
+	// return "Arithmatic" // distance between numbers is consistent 
+	// } else if Geometric(arr) {
+	// return "Geometric" // common ration 2, 6, 18, 54
+	// } else {
+	// return -1 // neither
+	// }
 	
 }
+
+console.log(Arithmatic([2, 4, 6, 8]));
+
