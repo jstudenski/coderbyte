@@ -9,20 +9,39 @@
 
 function ExOh(str) {
 
-var x = 0;
-var o = 0;
-
-// string .split
-
-//each if x += 1
+	var myArray = str.split('');
 
 
-if x == 0 
-	true
-else{
-	return false
+	var x = 0;
+	var o = 0;
+
+
+	for (i in myArray) {
+
+		if (myArray[i] == 'x') {
+
+			x += 1
+
+		} else if (myArray[i] == 'o'){
+
+			o += 1
+
+		} else {
+
+			console.log("string not recognized")
+		}
+	}
+
+	if (x == o) {
+
+		return true;
+
+	} else {
+
+		return false;
+	}
+    
 }
 
-}
 
-
+console.log(ExOh("xxxoooo"));

@@ -8,19 +8,27 @@
 function ABCheck(str) {
 
 
-// .length
+
+  var myArray = str.split('');
+
+  for (i in myArray) {
+
+    if (myArray[i] == "a" || myArray[i] == "b") {
+
+      if (myArray[i - 4] == "b") { // i - 4 doesnt work
+         console.log("true");
+      }
 
 
-var first = 0;
-var last = 4
 
+    } else {
 
-	if str[first] == str[last] 
+      console.log("false");
 
-		first += 1
-		last += 1
+    }
 
-		until last = string.length - 1
-
+  }
 
 };
+
+console.log(ABCheck("lane borrowed"))
