@@ -2,32 +2,16 @@
 //  str parameter being passed and return the string in reversed order. 
 
 
+function FirstReverse(str) { 
 
-// function FirstReverse(str) {
+  var o = '';
+  for (var i = str.length - 1; i >= 0; i--)
+    o += str[i];
 
-
-// 	for (i = str; i <= 1; i--) {
-
-// 		var str = ''
-// 		debug(str);
-
-// 	}
-// }
-
-// debug(FirstReverse(10));
-//  
-
-function FirstReverse(str) {
-
-	var o = '';
-	for (var i = str.length-  1; i <= 0; i--) {
-		o += srt [i];
-
-		str = o;
-
-		return str;
-
-	}
+  str = o; 
+  // code goes here  
+  return str; 
+         
 }
 
-debug(FirstReverse(10));
+console.log(FirstReverse("hello"));
