@@ -6,9 +6,14 @@ function SimpleAdding(num) {
 var total = 0;
 
     for (i = num; i >= 1; i--) {
-        total = total + i;
+        total += i;
 
     }
     return total;
-    
+
 }
+
+
+console.log(SimpleAdding(3))
+
+
