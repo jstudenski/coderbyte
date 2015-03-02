@@ -3,10 +3,11 @@
   // the letters in alphabetical order (ie. hello becomes ehllo). Assume 
   // numbers and punctuation symbols will not be included in the string.
 
-
-
 function  AlphabetSoup(str){
 
-//alphabetical order
+return str.split('').sort().join('');
 
 };
+
+
+console.log(AlphabetSoup("hello"))
