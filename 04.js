@@ -4,13 +4,9 @@
  // alphabet (ie. c becomes d, z becomes a). Then capitalize every vowel in
  // this new string (a, e, i, o, u) and finally return this modified string. 
 
-// Capital and lower case letters ?
-
 var alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-var capitals = ["A", "B", "C", "D"]
-var vowels = ["a", "e", "i", "o", "u"]
-
-// if -1 return origional value
+var capitals = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+var vowels = ["a", "e", "i", "o", "u"];
 
 function ReplaceLetter(s) {
 
