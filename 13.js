@@ -3,8 +3,10 @@
  // words the string contains (ie. "Never eat shredded wheat" would return
  // 4). Words will be separated by single spaces. 
 
- function WordCount(srt){
+ function WordCount(str){
 
-// .split(' ') .wordcount? .length?
+	return str.split(' ').length
 
  }
+
+ console.log(WordCount("hello hello az AB! zzzzzzz; ; ;; 33"))
