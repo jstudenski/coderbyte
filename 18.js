@@ -8,8 +8,26 @@
 function NumberOfRepeatedLetters(str) {
 
 
-}
+	var frequency = [];
 
+	for (var i=0; i<str.length; i++) {
+
+		var character = str.charAt(i); // discovered charAt method
+
+		if (frequency[character]) {
+			frequency[character] += 1;
+
+		} else {
+
+			frequency[character] = 1;
+
+		}
+
+	}
+
+	return frequency;
+
+}
 
 function LetterCountI(str) {
 
@@ -18,4 +36,7 @@ function LetterCountI(str) {
 // if two words have same NORL, return the first one
 
 }
+
+
+console.log(NumberOfRepeatedLetters("sttttrr"))
 

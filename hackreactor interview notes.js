@@ -1,6 +1,13 @@
 
 var myArray = str.split('');
 
+
+//for loop
+
+for (i = 0; i < cars.length; i++) { 
+    text += cars[i] + "<br>";
+}
+
 // Recursion
 
 function fac(n) { 
@@ -10,7 +17,6 @@ function fac(n) {
 	return fac(n - 1) * n; 
 
 }
-
 
 // The difference between writing a function and invoking a function
 
@@ -27,7 +33,6 @@ var total = 0;
 }
 
 console.log(SimpleAdding(3))
-
 
 // Iterating through an array or an object using a for or while loop
 

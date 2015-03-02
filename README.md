@@ -2,7 +2,11 @@ Fix problem 3 test cases,
 
 Fix problem 7, l + 1 wont work..
 
-Fir problem 16, [i + 1] issue;
+Fix problem 16, [i + 1] issue;
+
+Problems with 18;
+
+
 
 
 The difference between writing a function and invoking a function
