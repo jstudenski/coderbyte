@@ -1,3 +1,9 @@
+Fix problem 3 test cases,
+
+Look up ways to step through an array
+
+
+
 The difference between writing a function and invoking a function
 
 Passing functions as arguments to other functions (callbacks)

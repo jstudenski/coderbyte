@@ -10,8 +10,9 @@ function LongestWord(sen) {
 	var myArray = sen.split(' ');
 	var longest = 0;
 	var longestword = '';
+
 	    myArray.forEach(function(i) {
-	        if (i.length >= longest) {
+	        if (i.length > longest) {
 	                longest = i.length;
 	                longestword = i;
 	        }
@@ -20,10 +21,10 @@ function LongestWord(sen) {
 	    return longestword;        
 }
    
-   
+
 if(LongestWord("hello jk jjjjjj afaew fwe af") == "jjjjjj") {console.log('passed')} else {console.log('failed')};
 
-if(LongestWord("hello world") == 'passed') {console.log('passed')} else {console.log('failed')};
+if(LongestWord("hello world") == 'hello') {console.log('passed')} else {console.log('failed')};
 
 if(LongestWord("a beautiful sentence^&!") == 'beautiful') {console.log('passed')} else {console.log('failed')};
 
