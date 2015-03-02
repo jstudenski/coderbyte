@@ -8,10 +8,27 @@
 
 function SimpleSymbols(str) {
 
+  var myArray = str.split('');
 
-	// each letter must be surrounded by +l+
+  for (l in myArray) { 
 
-	letter[]
+    if (typeof myArray[l] == "string") {
 
-	if letter[+1] && letter[-1] == "+"
-}
+        if ( myArray[l - 1] == '+' ) {  //  && myArray[l+1] == '+'
+
+        console.log(l + "true")
+
+        } else {
+
+            console.log(l + "false")
+        };
+    };
+
+
+
+  };
+
+	// if letter[+1] && letter[-1] == "+"
+};
+
+console.log(SimpleSymbols("st+r+j"));

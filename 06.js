@@ -24,5 +24,4 @@ function LetterCapitalize(str) {
 
 };
 
-
 console.log(LetterCapitalize("blah blah blah hhhh"));

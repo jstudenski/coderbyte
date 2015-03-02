@@ -1,6 +1,11 @@
 Fix problem 3 test cases,
 
+Fix problem 7, l + 1 wont work..
+
 Look up ways to step through an array
+
+
+
 
 
 
