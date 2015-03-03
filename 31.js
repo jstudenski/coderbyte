@@ -1,6 +1,6 @@
 function isPrime(n) {
 
-	for(i = 2; i < n; i++){
+	for(var i = 2; i < n; i++){
 
 	    if(n % i === 0){
 
@@ -15,7 +15,7 @@ function isPrime(n) {
 
 function allPrimesBetween(b) {
 
-	for(i = 1; i <= b; i++) {
+	for(var i = 1; i <= b; i++) {
 
 		// console.log(i);
 
