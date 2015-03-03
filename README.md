@@ -27,7 +27,7 @@ Arrays & Strings
 	Array.prototype 
 	String.prototype
 
-http://www.quora.com/I-attempted-some-of-the-Easy-challenges-on-CoderByte-but-found-them-extremely-difficult-Does-this-mean-Im-not-qualified-for-Hack-Reactor
+
 
 
 
