@@ -1,8 +1,8 @@
 function isPrime(n) {
 
-	for(var i = 2; i < n; i++){
+	for(var m = 2; m < n; m++){
 
-	    if(n % i === 0){
+	    if(n % m === 0){
 
 			return false;
 	    }
@@ -13,20 +13,15 @@ function isPrime(n) {
 
 }
 
-function allPrimesBetween(b) {
+function allPrimesBetween(a, b) {
 
-	for(var i = 1; i <= b; i++) {
-
-		// console.log(i);
-
+	for(var i = a; i <= b; i++) {
 
 		if (isPrime(i) === true){
 
 			console.log(i);
-			return;
+
 		}
-
-
 
 	}	
 }
@@ -34,5 +29,4 @@ function allPrimesBetween(b) {
 if(isPrime(4) == false) {console.log('passed')} else {console.log('failed')};
 if(isPrime(7) == true) {console.log('passed')} else {console.log('failed')};
 
-console.log(allPrimesBetween(30));
-
+console.log(allPrimesBetween(30, 50));
