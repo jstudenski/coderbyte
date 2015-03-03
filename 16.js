@@ -16,15 +16,19 @@ function Arithmatic(arr) {
 
 	for (i in arr) {
 
-		if (i <= arr.length-1) {
+		if (i > 0) {
 
-			if (arr[i] == arr[i-1]) { // -1
+			 if (i <= arr.length-1) {
 
-			console.log(arr[i]);
+				if (arr[i] == arr[i-1]) { // -1
+
+				console.log(arr[i]);
+
+				}
 
 			}
 
-		} 
+		}
 
 	}
 
@@ -36,9 +40,7 @@ var multiple = arr[1] / arr[0]
 
 }
 
-
 function ArithGeo(arr) {
-
 
 	// if Arithmatic(arr) {
 	// return "Arithmatic" // distance between numbers is consistent 

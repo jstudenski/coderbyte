@@ -6,15 +6,39 @@
 
 function DivisionStringified(num1,num2) {
 
-def newnum = num1/num2;
+	newnum = Math.floor(num1/num2);
 
-console.log(newnum);
 
-// convert to while loop?
+	var digits = newnum.toString().length;
 
-	if newnum.length > 3 {
+	var commas = Math.floor(digits / 3);
 
-	} else {
-		return num 
-	}
+	// while (commas >= 0) {
+
+	 
+	        //.pop() 
+
+
+	//}
+
+	// var myArray = newnum.split('');
+
+	// var myArray = myArray.join('');
+
+// console.log(newnum);
+
+// // convert to while loop?
+
+// 	if newnum.length > 3 {
+
+// 	} else {
+// 		return num 
+// 	}
+
+	console.log(newnum);
+	console.log(digits);
+
 }
+
+console.log(DivisionStringified("123456789","10000"));
+
