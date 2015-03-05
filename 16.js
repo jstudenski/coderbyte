@@ -52,5 +52,5 @@ function ArithGeo(arr) {
 	
 }
 
-console.log(Arithmatic([2, 4, 6, 8]));
+console.log(Arithmatic([2, 2, 4, 6, 8]));
 
