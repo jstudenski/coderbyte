@@ -15,21 +15,31 @@
 
 //Sort array function, pop smallest when E is reached
 
+function SortLowToHigh(a, b) {
+	return a - b;
+}
 
 function OffLineMinimum(strArr){
 
-	currentlargest = 0 
+	currentlargest = 0;
+	myarray = [];
 
 	for (var i = 0; i < strArr.length; i++) {
 
-	
-		if (strArr[i] > currentlargest)
-    	currentlargest = strArr[i]   		
-		}
 
-    	console.log(currentlargest)
-
+	//	if (strArr[i] > currentlargest)
+    //	currentlargest = strArr[i]   		
+	//	}
+    //    	console.log(currentlargest)
+    	
+        if (strArr[i] == "E") {
+             console.log(myarray.pop());
+        } else {
+            myarray.push(strArr[i]);
+            myarray.sort(SortLowToHigh)
+        }
+	}
 }
 
+OffLineMinimum([1, 6, 4, 4, "E", 8, 2, "E", "E",  4, 2])
 
-OffLineMinimum([1, 2, 3, 8, 5, "R", 2])
