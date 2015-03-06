@@ -18,5 +18,18 @@
 
 function OffLineMinimum(strArr){
 
+	currentlargest = 0 
+
+	for (var i = 0; i < strArr.length; i++) {
+
+	
+		if (strArr[i] > currentlargest)
+    	currentlargest = strArr[i]   		
+		}
+
+    	console.log(currentlargest)
 
 }
+
+
+OffLineMinimum([1, 2, 3, 8, 5, "R", 2])
