@@ -23,9 +23,9 @@ function OffLineMinimum(strArr){
 
 	currentlargest = 0;
 	myarray = [];
+	newarray =[];
 
 	for (var i = 0; i < strArr.length; i++) {
-
 
 	//	if (strArr[i] > currentlargest)
     //	currentlargest = strArr[i]   		
@@ -33,13 +33,26 @@ function OffLineMinimum(strArr){
     //    	console.log(currentlargest)
     	
         if (strArr[i] == "E") {
-             console.log(myarray.pop());
+        	newarray.push(myarray.pop());
         } else {
             myarray.push(strArr[i]);
             myarray.sort(SortLowToHigh)
         }
 	}
+
+	console.log(newarray);
 }
 
 OffLineMinimum([1, 6, 4, 4, "E", 8, 2, "E", "E",  4, 2])
 
+
+// ("5","4","6","E","1","7","E","E","3","2")
+// ("1","2","E","E","3")
+// ("4","E","1","E","2","E","3","E")
+// ("1","2","3","E")
+// ("1","2","3","E","E")
+// ("1","2","E","3","E","5","4","6")
+// ("3","5","E","6","E","1","4","2","E")
+// ("4","1","5","E","E","E")
+// ("6","5","1","2","3","4","E","E","E")
+// ("6","5","1","E","3","4","E","2","E")
