@@ -4,22 +4,18 @@
 // num is 39 then your program should return 3 because 3 * 9 = 27 then 2 * 7 = 14 and finally 1 * 4 = 4 and 
 // you stop at 4.
 
-
+numoftimes = 0;
 
 function MultiplicativePersistence(num) {
 
-var digits = num.toString().split('');
-
-return digits[0] * digits[1];
-
-//while currentnum.length > 1 
-//do...
-	//split string ('')
-	//save variables
-	//multiply them togther
-	//answer = current num .. repeat
-//else return currentnum
-
+	if (num.toString().length >= 2){
+		var digits = num.toString().split('');
+		var newnum =  digits[0] * digits[1];
+		numoftimes += 1;
+		MultiplicativePersistence(newnum);
+	} else {
+		return numoftimes;
+	}
 }
 
 console.log(MultiplicativePersistence(39))
