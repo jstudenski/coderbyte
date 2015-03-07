@@ -6,9 +6,26 @@
 
 //make sure its a positive integer? 
 
+
 function AdditivePersistence(num) {
 
-var currentnum = num
+	var myArray = num.split('')
+
+	console.log(myArray);
+
+	if (myArray.length >= 2) {
+
+		var num = 0
+
+		for (i in myArray) {
+			
+			num += myArray[i];
+		}
+
+	} else {
+
+		console.log(myArray.length)
+	}
 
 //while currentnum.length > 1 
 //do...
@@ -19,3 +36,20 @@ var currentnum = num
 //else return currentnum
 
 }
+
+
+AdditivePersistence("2718")
+
+
+function MultiplicativePersistence(num) {
+
+	if (num.toString().length >= 2){
+		var digits = num.toString().split('');
+		var newnum =  digits[0] * digits[1];
+		numoftimes += 1;
+		MultiplicativePersistence(newnum);
+	} else {
+		return numoftimes;
+	}
+}
+
