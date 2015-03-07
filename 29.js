@@ -6,11 +6,11 @@
 
 
 
-
-
 function MultiplicativePersistence(num) {
 
-var currentnum = num
+var digits = num.toString().split('');
+
+return digits[0] * digits[1];
 
 //while currentnum.length > 1 
 //do...
@@ -21,3 +21,5 @@ var currentnum = num
 //else return currentnum
 
 }
+
+console.log(MultiplicativePersistence(39))
